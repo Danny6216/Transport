@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6898acfb-0a0d-4a4d-900e-1b685525eadf" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Buses/Controllers/sample2.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Main.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Buses/Controllers/Controller.java" afterPath="$PROJECT_DIR$/src/main/java/Controllers/Controller.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Buses/Controllers/sample.fxml" afterPath="$PROJECT_DIR$/src/main/java/sample.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Buses/FX/BusesClient.java" afterPath="$PROJECT_DIR$/src/main/java/Hibernate/BusesClient.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Buses/FX/HibernateDataProvider.java" afterPath="$PROJECT_DIR$/src/main/java/Hibernate/HibernateDataProvider.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Buses/FX/HibernateUtil.java" afterPath="$PROJECT_DIR$/src/main/java/Hibernate/HibernateUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Buses/style.css" afterPath="$PROJECT_DIR$/src/main/java/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/App.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestLogger.java" afterPath="$PROJECT_DIR$/src/test/java/TestLogger.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -833,7 +823,7 @@
       <workItem from="1496418763241" duration="2776000" />
       <workItem from="1496428167027" duration="9058000" />
       <workItem from="1496440493226" duration="323000" />
-      <workItem from="1496440905711" duration="2566000" />
+      <workItem from="1496440905711" duration="3224000" />
     </task>
     <task id="LOCAL-00002" summary="Ver. 2">
       <created>1495830982133</created>
@@ -849,7 +839,14 @@
       <option name="project" value="LOCAL" />
       <updated>1496438132404</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ver. 2">
+      <created>1496443480510</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1496443480510</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -879,7 +876,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63277000" />
+    <option name="totallyTimeSpent" value="63935000" />
   </component>
   <component name="TodoView" selected-index="1" />
   <component name="ToolWindowManager">
