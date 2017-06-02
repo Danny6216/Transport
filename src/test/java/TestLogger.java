@@ -1,4 +1,6 @@
 import java.util.logging.Logger;
+
+import Buses.FX.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -7,8 +9,6 @@ import org.hibernate.query.Query;
 
 //import javax.management.Query;
 import java.util.Arrays;
-import  java.util.List;
-
 
 
 /**

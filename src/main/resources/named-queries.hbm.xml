@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping">
     <sql-query name="TablesNames">
-        SELECT table_name FROM Vehicles;
+        SHOW TABLES FROM Vehicles;
     </sql-query>
     <!--
     <sql-query name="DBSize">

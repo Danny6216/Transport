@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="../style.css" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Buses.Controllers.Controller">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="400.0" minHeight="0.0" prefHeight="114.0" vgrow="SOMETIMES" />
+
+  </rowConstraints>
+   <children>
+      <Accordion GridPane.columnIndex="1">
+        <panes>
+          <TitledPane animated="false" text="Добавить Водителя">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Button layoutX="222.0" layoutY="148.0" mnemonicParsing="false" onAction="#AddDriver" text="Add" />
+                        <TextField layoutX="14.0" layoutY="148.0" onAction="#AddDriver" text="Фамилия" />
+                        <TextField layoutX="14.0" layoutY="115.0" onAction="#AddDriver" text="Имя" />
+                        <TextField layoutX="14.0" layoutY="183.0" onAction="#AddDriver" text="Возраст" />
+                     </children></AnchorPane>
+            </content>
+          </TitledPane>
+          <TitledPane animated="false" text="Добавить Транспорт">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                <children>
+                  <Button layoutX="240.0" layoutY="148.0" mnemonicParsing="false" onAction="#AddVehicle" text="Add" />
+                  <TextField layoutX="14.0" layoutY="148.0" onAction="#AddVehicle" />
+                  <TextField layoutX="14.0" layoutY="183.0" onAction="#AddVehicle" />
+                        <RadioButton layoutX="14.0" layoutY="114.0" mnemonicParsing="false" text="Трамвай" />
+                        <RadioButton layoutX="14.0" layoutY="86.0" mnemonicParsing="false" text="Автобус" />
+                </children>
+              </AnchorPane>
+            </content>
+          </TitledPane>
+          <TitledPane animated="false" text="Добавить Маршрут">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                  <children>
+                      <Button layoutX="222.0" layoutY="148.0" mnemonicParsing="false" onAction="#AddRoute" text="Add" />
+                      <TextField layoutX="14.0" layoutY="115.0" onAction="#AddRoute" text="Номер" />
+                      <TextField layoutX="14.0" layoutY="148.0" onAction="#AddRoute" text="Имя" />
+                  </children>
+              </AnchorPane>
+            </content>
+          </TitledPane>
+        </panes>
+      </Accordion>
+   </children>
+</GridPane>

@@ -1,8 +1,8 @@
-/**
+package Buses.FX; /**
  * Created by dann on 20.05.17.
  */
 import org.apache.log4j.Logger;
-import org.junit.Test;
+
 public class BusesClient {
     private static Logger logger = Logger.getLogger(BusesClient.class.getName());
     private void logBasicSystemInfo() {
