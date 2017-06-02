@@ -1,6 +1,6 @@
 import java.util.logging.Logger;
 
-import Buses.FX.HibernateUtil;
+import Hibernate.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;

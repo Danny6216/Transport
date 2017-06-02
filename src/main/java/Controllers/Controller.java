@@ -1,4 +1,4 @@
-package Buses.Controllers;
+package Controllers;
 
 import javafx.event.ActionEvent;
 

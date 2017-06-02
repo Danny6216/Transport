@@ -1,4 +1,4 @@
-package Buses.FX; /**
+package Hibernate; /**
  * Created by dann on 20.05.17.
  */
 import org.apache.log4j.Logger;

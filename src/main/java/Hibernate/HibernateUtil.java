@@ -1,4 +1,4 @@
-package Buses.FX;
+package Hibernate;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.MetadataSources;
